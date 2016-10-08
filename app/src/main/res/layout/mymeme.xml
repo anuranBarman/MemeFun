@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_bg">
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/imgMeme"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/holderbg"
+        android:padding="10dp"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/etTop"
+        android:layout_gravity="center_horizontal"
+        android:hint="Top text"
+        android:padding="10dp"
+        android:textColor="@android:color/black"
+        android:background="@drawable/edit_text_bg"
+        android:layout_margin="10dp"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/etBottom"
+        android:layout_gravity="center_horizontal"
+        android:hint="Bottom text"
+        android:padding="10dp"
+        android:textColor="@android:color/black"
+        android:background="@drawable/edit_text_bg"
+        android:layout_margin="2dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Generate Meme"
+        android:id="@+id/genButton"
+        android:background="@drawable/buttonshape"
+        android:layout_marginTop="20dp"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:layout_gravity="center_horizontal"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="5dp">
+        <Button
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:text=""
+            android:id="@+id/btnSave"
+            android:background="@drawable/saveicon"
+            android:layout_margin="10dp"/>
+        <Button
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:text=""
+            android:id="@+id/btnShare"
+            android:background="@drawable/shareicon"
+            android:layout_margin="10dp"/>
+        <Button
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:text=""
+            android:background="@drawable/retryicon"
+            android:id="@+id/btnTry"
+            android:layout_margin="10dp"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_bg">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Memes"
+        android:layout_gravity="center_horizontal"
+        android:textSize="25dp"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="10dp"
+        android:shadowColor="#000000"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:shadowRadius="5"
+        android:id="@+id/memeHeader"/>
+    <GridView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/gridview"
+        android:padding="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:numColumns="auto_fit"
+        android:columnWidth="85dp"
+        android:horizontalSpacing="10dp"
+        android:verticalSpacing="10dp"
+        android:gravity="center"
+        android:stretchMode="columnWidth"
+        />
+</LinearLayout>
